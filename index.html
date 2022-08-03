@@ -1,0 +1,44 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Animation using GSAP</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card-animation" id="card-animation">
+      <div class="img"></div>
+      <p class="card-header">SAVAGE</p>
+      <div class="card-text-below">
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="card-side">
+        <h2>
+          Taimoor <br />
+          Shahzada
+        </h2>
+        <div onclick="cardOn()" class="card-on">
+          <span id="card-plus">+</span>
+          <span id="card-minus">-</span>
+        </div>
+      </div>
+      <div class="card-side-text">
+        <p class="card-paragraph">
+          Lorem ipsum dolor sit amet. <br />
+          Lorem ipsum dolor, sit amet consectetur <br />
+          adipisicing elit. Voluptate, vero. <br />
+          Lorem, ipsum dolor sit amet consectetur adipisicing. <br />
+          Lorem ipsum dolor sit amet. <br />
+          Lorem, ipsum. <br />
+          Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
